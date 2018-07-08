@@ -4,10 +4,7 @@ html, body{
 	background-color: #141516;
 	color: #FFFFFF;
 	font-size: 14px;
-}
-
-* {
-	font-family: 'Inconsolata, arial';
+	font-family: 'Inconsolata', 'Arial', sans-serif;
 	font-weight: lighter;
 }
 
