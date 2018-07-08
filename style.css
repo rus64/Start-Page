@@ -1,19 +1,4 @@
-@font-face {
-	font-family: 'fira';
-	src:  url('FiraCode-Retina.ttf') format('ttf'),
-	local('FiraCode-Retina');
-	font-style: normal;
-	font-weight: normal;
-}
-@font-face {
-	font-family: 'fira';
-	src:  url('FiraCode-Light.ttf') format('ttf'),
-	local('FiraCode-Light');
-	font-style: normal;
-	font-weight: lighter;
-
-}
-
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
 
 html, body{
 	margin: 0;
@@ -24,19 +9,19 @@ html, body{
 }
 
 * {
-	font-family: 'fira';
+	font-family: 'Inconsolata';
 	font-weight: lighter;
 }
 
 #container {
 	position: absolute;
-	padding: 0 20px 0 20px;
-	top: 35%;
+	padding: 10px 30px 10px 30px;
+	top: 15%;
 	left: 0;
 	right: 0;
 	margin-left: auto;
 	margin-right: auto;
-	width: 700px;
+	width: 900px;
 	height: auto;
 }
 
@@ -45,7 +30,7 @@ html, body{
 	-moz-box-shadow: 1px 1px 20px 0px #000;
 	box-shadow: 1px 1px 20px 0px #000;
 	background-color: #282a36;
-	margin: 4px;
+	margin: 15px;
 	padding: 8px;
 	border: 5px solid #282a36;
 }
@@ -63,20 +48,22 @@ html, body{
 	box-shadow: 1px 1px 20px 0px #000;
 	-moz-box-flex: 1;
 	-webkit-box-flex: 1;
-	margin: 4px;
+	margin: 15px;
 	padding: 8px 8px 8px 8px;
 	background-color: #282a36;
 	border: 5px solid #282a36;
+    width: 33.3%;
 }
 
 .linksbox h3 {
 	padding-bottom: 5px;
 }
 
-.linksbox a{
+.linksbox a {
 	display: block;
 	text-decoration: none;
 	font-weight: bold;
+
 }
 
 .linksbox a.cyan:hover {
@@ -122,15 +109,30 @@ h3 {
 	color: #ff5c57;
 }
 
+ul {
+   list-style: none;
+   padding: 5px;
+   white-space: nowrap;
+}
+
+li { 
+    padding: 1px 0px;
+}
+
+a {
+	white-space:nowrap;
+}
+
 form {
 	display: inline;
 }
 
-input 	{
+input {
 	display: inline;
 	background: none;
 	display: inline;
 	border: none;
+	outline: none;
 	color: #FFF;
 	width: 70%;
 	font-size: 14px;
