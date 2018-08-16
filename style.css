@@ -55,7 +55,7 @@ html, body, input {
 }
 
 .linksbox a {
-	display: block;
+	display: inline;
 	text-decoration: none;
 	font-weight: bold;
 
